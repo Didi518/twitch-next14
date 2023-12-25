@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Clone de Twitch
 
-## Getting Started
+**Application permettant de réaliser des _streams_**
 
-First, run the development server:
+## Commandes de base
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+git status
+git add
+git commit
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Fonctionnalités
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-:zap: Streaming avec protocoles RTMP / WHIP
+-:globe_with_meridians: Générateur d'entrées
+-:adhesive_bandage: Connecter appli Next vers OBS / autre logiciel de streaming
+-:lock: Authentification
+-:camera_flash: Téléchargement de miniatures
+-:alien: Compteur des spectateurs
+-:triangular_flag_on_post: Statuts du live
+-:speech_balloon: Chat en temps réel avec socket
+-:art: Couleur unique pour chaque viewer sur le chat
+-:beers: Système de follow
+-:passport_control: Possibilité de bloquer
+-:ambulance: Possibilité de kicker en temps réel
+-:chart_with_upwards_trend: Options steameur / créateur de contenu
+-:see_no_evil: Possibilité de ralentir de chat
+-:closed_lock_with_key: Mode followers seulement sur le chat
+-:pencil2: Activer / désactiver le chat
+-:arrow_down: Disposition adatpable (masquer nav, chat etc)
+-:rocket: Accueil avec recommendations, classement par lives en cours
+-:mag: Disposition différente pour la page de recherche
+-:recycle: Synchronisation des infos utlisateurs sur la DB via webhooks
+-:sparkles: Synchronisation des infos sur les lives sur la DB via webhooks
+-:children_crossing: Onglet communauté
+-:art: Design soigné
+-:zap: Appli rapide
+-:memo: SSR (Server Side Rendering)
+-:seedling: Groupement des routes et de layouts
+-:card_file_box: Mysql
+-:rocket: Mise en ligne
+# twitch-next14
