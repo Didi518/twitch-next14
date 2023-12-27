@@ -17,8 +17,8 @@ export const Navigation = () => {
       icon: Fullscreen,
     },
     {
-      label: "Accès",
-      href: `/u/${user?.username}/acces`,
+      label: "Clés",
+      href: `/u/${user?.username}/cles`,
       icon: KeyRound,
     },
     {

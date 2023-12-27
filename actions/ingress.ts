@@ -80,7 +80,7 @@ export const createIngress = async (ingressType: IngressInput) => {
     },
   });
 
-  revalidatePath(`/u/${self.username}/acces`);
+  revalidatePath(`/u/${self.username}/cles`);
 
   return ingress;
 };
