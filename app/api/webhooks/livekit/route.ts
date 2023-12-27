@@ -14,7 +14,7 @@ export async function POST(req: Request) {
   const authorization = headerPayload.get("Authorization");
 
   if (!authorization) {
-    return new Response("pas d'en-tête d'autorisation", { status: 400 });
+    return new Response("No authorization header", { status: 400 });
   }
 
   const event = receiver.receive(body, authorization);
